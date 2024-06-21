@@ -23,4 +23,4 @@ def read_text():
 
 @app.get("/redirect")
 def read_redirect():
-		return RedirectResponse(url="/text")
+		return RedirectResponse(url="/html")
